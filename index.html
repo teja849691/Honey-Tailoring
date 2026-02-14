@@ -3,66 +3,145 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Honey Tailoring | Moggam & Computer Works</title>
+    <title>Honey Tailoring | Premium Bridal Works</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <header class="header">
-        <div class="container">
-            <h1>Honey Tailoring</h1>
-            <p class="tagline">Moggam & Computer Works</p>
+    <header>
+    <div class="header-container">
+        <div class="logo-box">
+            <img src="logo.png" alt="Honey Tailoring Logo" class="site-logo">
         </div>
-    </header>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#about">About</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <a href="https://wa.me/919059567892" class="gold-btn-sm hide-mobile">WHATSAPP</a>
+    </div>
+</header>
 
-    <section class="hero">
+   <section class="hero" id="home">
+    <div class="honey-bg-animation">
+        <div class="bee b1">🐝</div>
+        <div class="bee b2">🐝</div>
+        <div class="bee b3">🐝</div>
+        <div class="bee b4">🐝</div>
+        <div class="bee b5">🐝</div>
+    </div>
+
+    <div class="hero-content">
+        <h1>Design Your Dream Outfit</h1>
+        <p>EXPERT MOGGAM & COMPUTER EMBROIDERY WORKS</p>
+        <a href="#contact" class="gold-btn-lg">ENQUIRE NOW</a>
+    </div>
+</section>
+
+    <section class="services" id="services">
         <div class="container">
-            <h2>Transforming Fabric into Art</h2>
-            <p>Specialists in Bridal Lehengas, Intricate Moggam Work, and Computer Embroidery.</p>
-            <p><strong>Tailor: Navitha</strong></p>
-            
-            <a href="https://wa.me/919059567892" class="btn">Book Appointment via WhatsApp</a>
-        </div>
-    </section>
-
-    <section class="gallery">
-        <div class="container">
-            <h2 class="section-title">Our Latest Collections</h2>
-            <div class="grid">
-                <div class="card">
-                    <div class="image-placeholder">
-                        <img src="moggam-work.jpg" alt="Moggam Work Design">
+            <h2 class="services-title">Our Services</h2>
+            <div class="service-grid">
+                <div class="service-card">
+                    <div class="img-wrapper">
+                        <img src="image1.jpg" alt="Bridal">
                     </div>
-                    <h3>Bridal Moggam</h3>
-                    <p>Hand-crafted heavy embroidery.</p>
+                    <h3>Bridal Blouse Stitching</h3>
+                    <p>Exquisite fitting with customized neck patterns and luxury finishing.</p>
+                    <a href="#contact" class="gold-btn-sm1">Enquire Now</a>
                 </div>
-
-                <div class="card">
-                    <div class="image-placeholder">
-                        <img src="computer-work.jpg" alt="Computer Embroidery">
+                <div class="service-card">
+                    <div class="img-wrapper">
+                        <img src="image.png" alt="Moggam">
                     </div>
-                    <h3>Computer Works</h3>
-                    <p>Precise and elegant patterns.</p>
-                </div>
-
-                <div class="card">
-                    <div class="image-placeholder">
-                        <img src="lehenga.jpg" alt="Stitched Lehenga">
-                    </div>
-                    <h3>Custom Stitching</h3>
-                    <p>Perfect fitting for all occasions.</p>
+                    <h3>Moggam Work</h3>
+                    <p>At Honey Tailoring, Moggam work is more than just embroidery ,it is a legacy. Our artisans spend hours meticulously hand-stitching intricate patterns using high-quality metallic threads and embellishments.</p>
+                    <a href="#contact" class="gold-btn-sm1">Enquire Now</a>
                 </div>
             </div>
         </div>
     </section>
-
-    <footer class="footer">
-        <div class="container">
-            <p>Ready to design your dream outfit?</p>
-            <h3>Call: 9059567892</h3>
-            <p class="copyright">© 2026 Honey Tailoring. Designed by Navitha.</p>
+<section class="gallery" id="gallery">
+    <div class="container">
+        <h2 class="section-title">Design Gallery</h2>
+    </div>
+    
+    <div class="infinite-slider">
+        <div class="slider-track">
+            <div class="gallery-card"><img src="1.jpeg" alt="Work 1"></div>
+            <div class="gallery-card"><img src="2.jpeg" alt="Work 2"></div>
+            <div class="gallery-card"><img src="3.jpeg" alt="Work 3"></div>
+            <div class="gallery-card"><img src="4.jpeg" alt="Work 4"></div>
+            <div class="gallery-card"><img src="5.jpeg" alt="Work 5"></div>
+            <div class="gallery-card"><img src="6.jpeg" alt="Work 1"></div>
+            <div class="gallery-card"><img src="7.jpeg" alt="Work 2"></div>
+            <div class="gallery-card"><img src="3.jpeg" alt="Work 3"></div>
+            <div class="gallery-card"><img src="4.jpeg" alt="Work 4"></div>
+            <div class="gallery-card"><img src="5.jpeg" alt="Work 5"></div>
         </div>
-    </footer>
+    </div>
+</section>
+    <section class="about" id="about">
+        <div class="container narrow">
+            <div class="about-card">
+                <h2>About Honey Tailoring</h2>
+                <div class="gold-divider"></div>
+                <p>Led by <strong>Navitha</strong>, Honey Tailoring provides premium ladies tailoring services. We specialize in bridal works, custom designs, and perfect fitting. Our commitment to quality finishing and customer satisfaction is what defines our boutique aesthetic.</p>
+            </div>
+        </div>
+    </section>
 
+    <section class="contact" id="contact">
+    <div class="container contact-flex">
+        <div class="contact-details">
+            <h2>Get In Touch</h2>
+            <p><strong>Owner:</strong> Navitha</p>
+            <p><strong>Phone:</strong> 9059567892</p>
+            <p><strong>Hours:</strong> Mon–Sun 10AM–8PM</p>
+        </div>
+        <div class="contact-form-box">
+            <form class="contact-form" id="whatsappForm">
+                <input type="text" id="userName" placeholder="Your Name" required>
+                <input type="tel" id="userMobile" placeholder="Mobile Number" required>
+                <textarea id="userMessage" placeholder="What kind of work do you need? (e.g., Moggam, Bridal Blouse)" rows="4" required></textarea>
+                <button type="submit" class="gold-btn-lg full-width">Send to WhatsApp</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<script>
+    document.getElementById('whatsappForm').addEventListener('submit', function(e) {
+        e.preventDefault(); // Prevents the page from refreshing
+
+        // 1. Get the values from the input fields
+        const name = document.getElementById('userName').value;
+        const mobile = document.getElementById('userMobile').value;
+        const message = document.getElementById('userMessage').value;
+
+        // 2. Your WhatsApp Number (including country code, no '+' or spaces)
+        const phoneNumber = "919059567892"; 
+
+        // 3. Format the message for WhatsApp URL
+        // %0a is a line break in WhatsApp
+        const finalMessage = `*New Enquiry from Website*%0a%0a` +
+                           `*Name:* ${name}%0a` +
+                           `*Mobile:* ${mobile}%0a` +
+                           `*Message:* ${message}`;
+
+        // 4. Create the WhatsApp URL
+        const whatsappURL = `https://wa.me/${phoneNumber}?text=${finalMessage}`;
+
+        // 5. Open WhatsApp in a new tab
+        window.open(whatsappURL, '_blank').focus();
+    });
+</script>
+
+    <footer>
+        <p>© 2026 Honey Tailoring. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
